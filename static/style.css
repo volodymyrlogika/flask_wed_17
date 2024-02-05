@@ -1,27 +1,22 @@
-p{
-    color: rgb(32, 32, 32);
-    font-size: 20px;
-}
-
 .red{
-    color: #c50000;
+    color: red;
+    font-weight: 700;
 }
 
-h1{
-    color: blue;
-    font-weight: 700;
-    font-style: italic;
+body{
+    background: #530953;
+    color: white;
 }
 
 .my-btn{
     display: block;
-    background: rgb(68, 0, 68);
-    color: #ff8d64;
+    color: white;
+    background: orange;
     width: 200px;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     margin-bottom: 30px;
-    border: 3px solid #fb5417;
-    border-radius: 5px;
     text-decoration: none;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
 }
