@@ -11,7 +11,7 @@
           </li>
           {% for category in categories %}
             <li class="nav-item">
-              <a class="nav-link" href="#">{{category[1]}}</a>
+              <a class="nav-link" href="{{ url_for('posts_by_category', category_id=category[0]) }}">{{category[1]}}</a>
             </li>
           {% endfor %}
          
@@ -26,8 +26,9 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            <a class="nav-link active" aria-current="page" href="{{ url_for('newpost') }}">Новий пост</a>
           </li>
+         
         </ul>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
